@@ -1,0 +1,45 @@
+.Session{
+    display: flex;
+    justify-content: space-evenly;
+    padding:20px;
+   
+}
+    
+.Session1{
+    &_img{
+        position: relative;
+        bottom:80px;
+    }
+    &_p{
+        position: relative;
+        left: 25px;
+        bottom:150px;
+        color: rgb(244, 249, 249);
+    }
+}
+
+
+    
+
+@include mobile{
+    .Session{
+        display: block;
+        margin: 10px;
+    }
+    .Session1{
+        &_img{
+            position: relative;
+            bottom:5px;
+        }
+        &_p{
+            position: relative;
+            right:20px;
+           bottom:60px;
+           color: rgb(239, 234, 234);
+
+          
+            
+        }
+       
+    }
+}

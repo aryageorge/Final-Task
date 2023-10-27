@@ -1,0 +1,35 @@
+.be-academycards{
+   margin: 20px;
+    margin-top:60px;
+    display: flex;
+    
+ 
+}
+    .be-academycards_1{
+       /* margin-top:150px;*/
+       
+      
+    
+   
+    &_img{
+        margin-left:12px;
+    }
+
+    &_h6{
+        margin-top: 20px;
+        color:  #10385B;
+        
+    }
+    &_p{
+        margin-top: 20px;
+        color: #666666;
+
+    }
+}
+@include mobile{
+    .be-academycards{
+        display: block;
+        margin:10px;
+        padding-left:10px;
+      }
+}

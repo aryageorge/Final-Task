@@ -1,0 +1,161 @@
+.be-benifits{
+   
+    background-image: url('../images/Mask group.png');
+    height:620px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    
+}
+.be-benifits1{
+ padding: 20px;
+ padding-top: 60px;
+
+ &_p{
+    color:#FFFFFF;
+    padding-left: 50px;
+ }
+ &_h3{
+    margin-top: 20px;
+    color: #FFFFFF;
+    padding-left: 50px;
+ }
+ &_h3::after{
+    
+   
+    position: absolute;
+        content: "";
+        height: 2px;
+        width:6%;
+        background-color:#eef5fc;
+      
+        margin:15px;
+    
+ }
+}
+.be-benifits2{
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+   
+    height: 350px;
+    position: relative;
+    top:250px;
+    z-index: 3;
+}
+
+.be-benifitss{
+    background-image: url('../images/Rectangle 299.png');
+    height:800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    
+
+}
+.be-benifitss1{
+    padding: 20px;
+    position: relative;
+    top:350px;
+    
+   
+    &_p{
+       color:#10385B;
+       padding-left: 50px;
+    }
+    &_h3{
+       margin-top: 20px;
+       color:#10385B;
+       padding-left: 50px;
+    }
+    &_h3::after{
+       
+      
+       position: absolute;
+           content: "";
+           height: 2px;
+           width:6%;
+           background-color:#10385B;
+         
+           margin:15px;
+       
+    }
+   }
+
+   .be-benifitss2{
+    display: flex;
+    position: relative;
+    top:350px;
+   }
+   .be-benifit{
+   
+    margin-left:500px;
+    position: relative;
+    bottom:23px;
+   
+   
+   }
+
+@include mobile{
+
+   .be-benifits{
+   
+      background-image: url('../images/Mask group.png');
+      height:1500px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      max-width: 100%;
+      
+  }
+    .be-benifits2{
+    display: block;
+    padding-left: 20px;
+    margin: 20px;
+    }
+    .be-benifitss{
+        background-image: url('../images/Rectangle 299.png');
+        height:1000px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+
+        
+    
+    }
+    .be-benifitss1{
+        padding: 0px;
+        position: relative;
+        top:0px;
+        
+       
+        &_p{
+           color:#10385B;
+           position: relative;
+        top:3200px;
+        }
+        &_h3{
+           margin-top: 20px;
+           color:#10385B;
+           position: relative;
+        top:3200px;
+        }
+        
+       }
+    
+       .be-benifitss2{
+        display:block;
+        position: relative;
+        top:2300px;
+        
+       }
+       .be-benifit{
+       
+        margin-left:0px;
+       width:80%;
+        position: relative;
+        top:1600px;
+        bottom: 0px;
+       
+       
+       }
+}

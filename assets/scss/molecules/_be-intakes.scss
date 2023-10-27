@@ -1,0 +1,39 @@
+.be-intakes{
+    display: flex;
+    color: #FFFF;
+    justify-content: space-between;
+    padding-top: 40px;
+   
+    
+}
+.be-intakes_1{
+    &_h2{
+        font-family: Poppins;
+font-size: 28px;
+font-weight: 600;
+line-height: 42px;
+letter-spacing: 0em;
+
+color: #FFFF;
+
+    }
+    &_h6{
+        color: #FFFF;
+    }
+
+    &_p{
+        color: #FFFF;
+        opacity: 50%;
+    }
+       
+}
+@include mobile{
+    .be-intakes{
+        display: block;
+        color: #FFFF;
+        justify-content: space-between;
+        padding-top: 40px;
+       
+        
+    }
+}

@@ -1,0 +1,25 @@
+.be-coursecards{
+    padding: 10px;
+    margin:20px ;
+    padding-left: 50px;
+    
+    &_img{
+        margin-left:50px;
+        padding:10px;
+    }
+}
+@include mobile{
+    .be-coursecards{
+        padding: 10px;
+        margin:20px ;
+        padding-left: 50px;
+        position: relative;
+        top: 900px;
+        
+        &_img{
+            margin-left:50px;
+            padding:10px;
+            
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.be-fullintake{
+    background: linear-gradient(0deg, #000000, #000000),
+linear-gradient(0deg, #071D31, #071D31);
+
+height: 855px;
+padding: 50px;
+position: relative;
+top:699px;
+padding-left: 60px;
+
+
+
+}
+@include mobile{
+    .be-fullintake{
+        background: linear-gradient(0deg, #000000, #000000),
+    linear-gradient(0deg, #071D31, #071D31);
+    
+    height: 3200px;
+    padding: 50px;
+    position: relative;
+    top:3400px;
+    padding-left: 60px;
+    
+    
+    
+    }
+}

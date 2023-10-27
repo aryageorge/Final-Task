@@ -1,0 +1,55 @@
+
+    .be-vision{
+        background-image: url('../images/Rectangle 4012.png');
+        
+padding-top:50px;
+         padding-left: 50px;
+       background-size: cover;
+      
+     max-width: 100%;
+ background-position:center;
+        
+     
+         
+ &_h1{
+    padding-bottom:20px;
+    color: azure;
+    padding-top:10px;
+    font-family: Poppins;
+font-size: 38px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0em;
+
+
+   
+    
+}
+&_p{
+    color: azure;
+padding-bottom:50px;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+
+
+}
+
+
+
+}
+         
+        
+         
+     
+     @include mobile{
+        .be-vision{
+            display: block;
+            padding-left: 10px;
+            width: 100%;
+        }
+    }
+     
+     

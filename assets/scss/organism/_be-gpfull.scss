@@ -1,0 +1,47 @@
+.be-greatplace{
+   
+    background-image: url('../images/Rectangle 34624442.png');
+    height: 540px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    padding-top:50px;
+    padding-left: 30px;
+   
+
+}
+.be-greatplace_head{
+ padding: 20px;
+ &_h2{
+    color: #FFFFFF;
+    font-family: Poppins;
+font-size: 28px;
+font-weight: 600;
+line-height: 42px;
+letter-spacing: 0em;
+
+
+ }
+ &_p{
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+
+
+ }
+}
+@include mobile{
+   .be-greatplace{
+   
+      background-image: url('../images/Rectangle 34624442.png');
+      height:1500px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      max-width: 100%;
+      padding-top:50px;
+  }
+}

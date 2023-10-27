@@ -1,0 +1,157 @@
+.be-footer2{
+    display: flex;
+     background: linear-gradient(72.45deg, #23133F 9.81%, #08205C 50.72%, #01326A 93.38%);
+    height: 450px;
+    color: #FFFFFF;
+    justify-content: space-evenly;
+   
+    
+}
+.be-footer21{
+   padding-top: 40px;
+  
+   margin-top: 80px;
+   
+    &_img{
+       margin-left:35px; 
+       margin-top: 20px;
+       
+       
+    
+    }
+    &_p{
+        padding-top: 20px; 
+        font-size: 14px;
+        line-height:30px;
+        
+    }
+    &_h6{
+        margin-left:35px; 
+       margin-top: 20px;
+    }
+    &_para{
+        padding-top: 20px; 
+        font-size: 14px;
+        line-height:30px;
+    }
+    &_pa{
+        margin-top:70px ;
+        font-size: 14px;
+        line-height:30px;
+        
+    }
+    
+}
+.be-footer12{
+    background-color: white;
+    width: 1px;
+    height: 180px;
+    margin-top:180px;
+}
+
+    
+
+
+.be-footer3{
+    background-color: #150D2B;
+    color: #FFFFFF;
+    height: 180px;
+   
+}
+.be-footer3pic{
+    display: flex;
+  
+    margin-left:700px;
+    align-items: center;
+    
+    
+}
+.be-footer121{
+    background-color: white;
+    width: 1px;
+    height: 25px;
+    margin-top:20px;
+}
+.be-footer3pic_pic{
+    padding:10px;
+   
+   
+}
+.be-footer3pics{
+    display: flex;
+  
+    margin-left:550px;
+    align-items: center;
+}
+.be-footer3pics_pic1{
+    padding:10px;
+    margin-top:20px;
+    &_h6{
+        padding-right:10px;
+
+    }
+    
+
+}
+.be-footer3pic1{
+    padding:10px;
+   
+    margin-left:660px;
+}
+@include mobile{
+
+    .be-footer2{
+        display:block;
+         background: linear-gradient(72.45deg, #23133F 9.81%, #08205C 50.72%, #01326A 93.38%);
+        height:2500px; ;
+        color: #FFFFFF;
+        justify-content: space-evenly;
+       
+        
+    }
+   .be-footer12{
+    background-color: white;
+    width: 1px;
+    height:50px;
+    margin-top: 0px;
+}
+ 
+        
+        .be-footer3{
+    background-color: #150D2B;
+    color: #FFFFFF;
+    height: 450px;
+        }
+
+        .be-footer3pic{
+            display: flex;
+          
+            margin-left:0px;
+            
+            
+            
+        }
+        
+        .be-footer3pics{
+            display:block;
+          
+            margin-left:0px;
+            align-items: center;
+        }
+        .be-footer3pics_pic1{
+         
+            margin-top:0px;
+            &_h6{
+                padding-left: 0px;
+            }
+            
+        
+        }
+        .be-footer3pic1{
+           
+           
+            margin-left:0px;
+        }
+
+        
+}

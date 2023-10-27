@@ -1,0 +1,100 @@
+
+    .be-greatplaces{
+    display: flex;
+    margin: 20px;
+   
+    
+  
+}
+.be-greatplace1{
+    display: flex;
+    margin-top:20px;
+    
+    
+    
+  }
+
+   
+    
+
+.be-greatplace1_1--1{
+    
+    padding-left:0px;
+    
+    
+}
+.be-greatplace2{
+    &_img{
+    width:60%;
+    height: 400px;
+    margin-left:290px;
+   position: relative;
+   bottom:65px;
+   z-index: 3;
+   
+}
+}
+
+.be-footergp{
+    box-sizing: border-box;
+  border: 0px solid ;
+  width:70%;
+  background-color: #2D82E5;
+  color: azure;
+  position: relative;
+  right:29px;
+  bottom:136px;
+  padding: 10px;
+
+  &_h5{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    
+    
+  }
+}
+@include mobile{
+    .be-greatplaces{
+        display:block;
+        margin: 0px;
+       
+        
+      
+    }
+    .be-greatplace1{
+        display: block;
+        margin-top:0px;
+        
+        
+    } 
+    .be-greatplace2{
+        &_img{
+        width:50%;
+        height: 400px;
+        margin-left:0px;
+        position: relative;
+   bottom:10px;
+   
+       
+    }   
+}
+.be-greatplace1_1--1{
+    
+    padding-left:0px;
+    
+    
+}
+.be-footergp{
+    box-sizing: border-box;
+  border: 0px solid ;
+  width:68%;
+  background-color: #2D82E5;
+  color: azure;
+  position: relative;
+  bottom:10px;
+  padding: 10px;
+}
+}

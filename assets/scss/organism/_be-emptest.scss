@@ -1,0 +1,46 @@
+.be-emptest{
+    text-align: center;
+    padding:60px ;
+    
+    &_p{
+        margin-top: 30px;
+       color:  #666666;
+
+    }
+    &_h2{
+        color:#10385B ;
+        
+    }
+}
+
+
+.be-emptest1{
+    &_h2{
+color: #10385B;
+font-family: Poppins;
+font-size: 28px;
+font-weight: 600;
+line-height: 42px;
+letter-spacing: 0em;
+
+
+    }
+    &_P{
+color: #666666;
+margin-top: 30px;
+    }
+}
+.be-empcou_1{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+@include mobile{
+    .be-empcou_1{
+        display:block;
+        justify-content: space-evenly;
+       
+    
+    }
+    
+}
